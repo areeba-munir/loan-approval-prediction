@@ -78,10 +78,17 @@ loan-approval-prediction/
 
 ---
 
-## Installation
+## Installation & Setup
 
-1. Clone this repository:
-
+1. Clone this repository
 ```bash
 git clone https://github.com/<your-username>/loan-approval-prediction.git
 cd loan-approval-prediction
+2. Create a new conda environment and activate it
+conda create -n loan-env python=3.10 -y
+conda activate loan-env
+3. Install required dependencies
+pip install -r requirements.txt
+4. Launch Jupyter Notebook
+jupyter notebook
+               
